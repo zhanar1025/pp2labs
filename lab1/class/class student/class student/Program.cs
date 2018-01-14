@@ -17,12 +17,6 @@ namespace student
             lastname = "Orynbasar";
             age = 18;
         }
-        public student(string firstname, string lastname, int age)
-        {
-            firstname = "Zhanar";
-            lastname = "Orynbasar";
-            age = 18;
-        }
         public void print()
         {
             Console.WriteLine("firstname: " + firstname);
