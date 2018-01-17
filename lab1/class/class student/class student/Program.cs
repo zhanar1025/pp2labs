@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace student
+namespace student1
 {
-    public class student
+     class student
     {
         public string firstname;
         public string lastname;
@@ -17,20 +17,30 @@ namespace student
             lastname = "Orynbasar";
             age = 18;
         }
-        public void print()
+        public student(string firstname, string name, int age)
         {
-            Console.WriteLine("firstname: " + firstname);
-            Console.WriteLine("lastname: " + lastname);
-            Console.WriteLine("age: " + age);
-
+            this.firstname = firstname;
+            lastname = name;
+            this.age = age;
+        }
+      
+        public override string ToString()
+        {
+            return firstname + " " + lastname + " " + age;
         }
     }
-        class MainClass
+        class Program
         {
         public static void Main(string[] args)
         {
-            student s1 = new student();
-            s1.print();
+            string firstname, lastname;
+            int age;
+
+            firstname = Console.ReadLine();
+            lastname = Console.ReadLine();
+            age = int.Parse(Console.ReadLine());
+            student s1 = new student(firstname, lastname, age);
+            Console.WriteLine(s1);
             Console.ReadKey();
         }
     }
