@@ -9,10 +9,10 @@ namespace circle
     class circle
     {
         public double radius;
-        public circle()
+       /* public circle()
         {
             radius = 2;
-        }
+        }*/
         public circle(double radius)
         {
             this.radius = radius;
