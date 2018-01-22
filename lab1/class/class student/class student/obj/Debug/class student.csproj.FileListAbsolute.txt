@@ -1,0 +1,7 @@
+C:\Users\Zhanar\Desktop\pp2labs\lab1\class\class student\class student\obj\Debug\class student.csprojResolveAssemblyReference.cache
+C:\Users\Zhanar\Desktop\pp2labs\lab1\class\class student\class student\obj\Debug\class student.csproj.CoreCompileInputs.cache
+C:\Users\Zhanar\Desktop\pp2labs\lab1\class\class student\class student\bin\Debug\class student.exe.config
+C:\Users\Zhanar\Desktop\pp2labs\lab1\class\class student\class student\bin\Debug\class student.exe
+C:\Users\Zhanar\Desktop\pp2labs\lab1\class\class student\class student\bin\Debug\class student.pdb
+C:\Users\Zhanar\Desktop\pp2labs\lab1\class\class student\class student\obj\Debug\class student.exe
+C:\Users\Zhanar\Desktop\pp2labs\lab1\class\class student\class student\obj\Debug\class student.pdb

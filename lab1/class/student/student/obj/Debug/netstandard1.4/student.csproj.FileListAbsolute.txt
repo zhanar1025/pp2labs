@@ -1,0 +1,8 @@
+C:\Users\Zhanar\Desktop\pp2labs\lab1\class\student\student\bin\Debug\netstandard1.4\student.deps.json
+C:\Users\Zhanar\Desktop\pp2labs\lab1\class\student\student\bin\Debug\netstandard1.4\student.dll
+C:\Users\Zhanar\Desktop\pp2labs\lab1\class\student\student\bin\Debug\netstandard1.4\student.pdb
+C:\Users\Zhanar\Desktop\pp2labs\lab1\class\student\student\obj\Debug\netstandard1.4\student.csprojResolveAssemblyReference.cache
+C:\Users\Zhanar\Desktop\pp2labs\lab1\class\student\student\obj\Debug\netstandard1.4\student.csproj.CoreCompileInputs.cache
+C:\Users\Zhanar\Desktop\pp2labs\lab1\class\student\student\obj\Debug\netstandard1.4\student.AssemblyInfo.cs
+C:\Users\Zhanar\Desktop\pp2labs\lab1\class\student\student\obj\Debug\netstandard1.4\student.dll
+C:\Users\Zhanar\Desktop\pp2labs\lab1\class\student\student\obj\Debug\netstandard1.4\student.pdb
