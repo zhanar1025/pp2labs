@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{AFA1C642-900D-43CE-83A3-2E3A6F175E76}</ProjectGuid>
+    <ProjectGuid>{B457ECA9-F8F3-4570-8343-297DED6168BA}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>complex_prog</RootNamespace>
-    <AssemblyName>complex prog</AssemblyName>
+    <RootNamespace>rectangle</RootNamespace>
+    <AssemblyName>rectangle</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="complex.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
