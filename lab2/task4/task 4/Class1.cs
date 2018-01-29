@@ -1,4 +1,4 @@
-﻿Yeraaaaa, [22.01.18 23:32]
+﻿
 using System;
 using System.Collections.Generic;
 using System.Linq;
