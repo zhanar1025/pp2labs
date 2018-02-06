@@ -42,7 +42,7 @@ namespace task_1
             int k = 0;
             int n = d.GetFileSystemInfos().Length;
             Show(d, k);
-            while (true)
+            //while (true)
             {
                 ConsoleKeyInfo keyinfo = Console.ReadKey();
                 if (keyinfo.Key == ConsoleKey.DownArrow)
