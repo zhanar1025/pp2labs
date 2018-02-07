@@ -1,2 +1,0 @@
-C:\Users\Zhanar\Desktop\pp2labs\lab1\task 4\task 4\obj\Debug\task 4.csprojResolveAssemblyReference.cache
-C:\Users\Zhanar\Desktop\pp2labs\lab1\task 4\task 4\obj\Debug\task 4.csproj.CoreCompileInputs.cache

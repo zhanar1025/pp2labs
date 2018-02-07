@@ -12,7 +12,7 @@ namespace snake
         String sign;
         ConsoleColor color;
         public int cnt;
-        public snake()
+        public Snake()
         {
             body=new List<point>();
             body.Add(new point(10,10));
@@ -51,7 +51,7 @@ namespace snake
                 body[0].y = 1;
             }
         }
-            public void draw()
+            public void Draw()
         {
             int i = 0;
             foreach(point p in body)
@@ -67,7 +67,7 @@ namespace snake
                 i++;
             }
         }
-        public bool CollisionWithWall(wall w)
+        public bool CollisionWithWall(Wall w)
         {
             foreach (point p in w.body)
             {
