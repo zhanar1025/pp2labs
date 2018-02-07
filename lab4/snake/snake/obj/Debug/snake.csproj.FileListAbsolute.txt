@@ -1,0 +1,2 @@
+C:\Users\Zhanar\Desktop\pp2labs\lab4\snake\snake\obj\Debug\snake.csprojResolveAssemblyReference.cache
+C:\Users\Zhanar\Desktop\pp2labs\lab4\snake\snake\obj\Debug\snake.csproj.CoreCompileInputs.cache
