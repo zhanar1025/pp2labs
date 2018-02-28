@@ -28,7 +28,7 @@ namespace ConsoleApp1
                     min=n[i];
                 }
             }
-            Console.WriteLine("max= "+max);
+            Console.WriteLine(Math.Max(n));
             Console.WriteLine("min= "+min);
             Console.ReadKey();
         }

@@ -25,7 +25,6 @@ namespace ConsoleApp1
             complexnum w = new complexnum(a1, b1);
             complexnum res = q + w;
             Console.WriteLine(res);
-           // Console.ReadKey();
             FileStream fs = new FileStream("data.txt", FileMode.OpenOrCreate, FileAccess.ReadWrite);
             BinaryFormatter bf = new BinaryFormatter();
             bf.Serialize(fs,res);

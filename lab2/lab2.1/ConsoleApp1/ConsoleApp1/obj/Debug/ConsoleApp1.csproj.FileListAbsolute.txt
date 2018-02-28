@@ -5,3 +5,7 @@ C:\Users\Zhanar\Desktop\test\lab2.1\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp
 C:\Users\Zhanar\Desktop\test\lab2.1\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
 C:\Users\Zhanar\Desktop\test\lab2.1\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
 C:\Users\Zhanar\Desktop\test\lab2.1\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+C:\Users\Zhanar\Desktop\pp2labs\lab2\lab2.1\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csprojResolveAssemblyReference.cache
+C:\Users\Zhanar\Desktop\pp2labs\lab2\lab2.1\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\Zhanar\Desktop\pp2labs\lab2\lab2.1\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\Zhanar\Desktop\pp2labs\lab2\lab2.1\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

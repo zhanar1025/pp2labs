@@ -57,7 +57,7 @@ namespace ConsoleApp1
                 }
                 if (keyinfo.Key == ConsoleKey.Enter)
                 {
-                    if (directoryInfo.GetFileSystemInfos()[cursor].GetType() == typeof(DirectoryInfo))
+                    if (directoryInfo.GetFileSystemInfos()[cursor].GetType()==typeof(DirectoryInfo))
                     {
                         directoryInfo = new DirectoryInfo(directoryInfo.GetFileSystemInfos()[cursor].FullName);
                         cursor = 0;
