@@ -74,17 +74,23 @@ namespace ConsoleApp1
                     score ++;
                     cnt++;
                 }
-
+                if (cnt == 3)
+                {
+                    level++;
+                    cnt = 0;
+                    wall = new Wall(level);
+                }
                 snake.Draw();
                 food.Draw();
+                wall.Draw();
                 Thread.Sleep(speed);
                 if (score == level * 5)
                 {
                     speed = Math.Max(1, speed - 50);
                 }
-                Console.SetCursorPosition(30, 30);
+                Console.SetCursorPosition(30, 20);
                 Console.WriteLine("score: " + score);
-                Console.SetCursorPosition(39, 30);
+                Console.SetCursorPosition(39, 20);
                 Console.WriteLine("level: " + level);
 
             }
@@ -101,12 +107,7 @@ namespace ConsoleApp1
             t.Start();
             while (true)
             {
-                if (cnt == 3)
-                {
-                    level++;
-                    cnt = 0;
-                    wall = new Wall(level);
-                }
+               
                 ConsoleKeyInfo keyInfo = Console.ReadKey();
 
                 if (keyInfo.Key == ConsoleKey.DownArrow && last!=3) {
@@ -135,19 +136,7 @@ namespace ConsoleApp1
                     t.Suspend();
                     snake.Serialization();
                     food.Serialization();
-                    wall.Serialization();
-                    Console.Clear();
-                    /*FileStream fs = new FileStream(@"C:\Users\Zhanar\Desktop\pp2labs\lab4\snake all\ConsoleApp1\ConsoleApp1\bin\Debug\score.txt",FileMode.OpenOrCreate,FileAccess.Write);
-                    StreamWriter sr = new StreamWriter(fs);
-                    sr.WriteLine(score);
-                    sr.Close();
-                    fs.Close();
-                    FileStream fss = new FileStream(@"C:\Users\Zhanar\Desktop\pp2labs\lab4\snake all\ConsoleApp1\ConsoleApp1\bin\Debug\level.txt", FileMode.OpenOrCreate, FileAccess.Write);
-                    StreamWriter srr = new StreamWriter(fss);
-                    sr.WriteLine(level);
-                    srr.Close();
-                    fss.Close();
-                    */
+                    wall.Serialization(); 
                 }
                 if (keyInfo.Key == ConsoleKey.D)
                 {

@@ -20,12 +20,11 @@ namespace ConsoleApp1
         }
         public void Setrandompos(Snake s, Wall w)
         {
-            int x = new Random().Next(0, 41);
-            int y = new Random().Next(0, 20);
+            int x = new Random().Next(2, Console.WindowWidth);
+            int y = new Random().Next(2, Console.WindowHeight);
             bool ok = false;
             for(int i = 0; i < s.body.Count; i++)
             {
-                
                 if(x == s.body[i].x && y == s.body[i].y)
                 {
                     ok = true;
